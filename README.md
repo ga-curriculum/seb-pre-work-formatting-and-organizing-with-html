@@ -1,30 +1,28 @@
+<textarea id="source">
 
+<h1 class="slide-header">Formatting and Organizing with HTML</h1>
 
- <textarea id="source">
-
-<h1 class="slide-header">Title</h1>
-
-<span id=time-estimate class="color-grey-500">20 mins</span>
+<span id=time-estimate class="color-grey-500">30 mins</span>
 
 <p id="lesson-description">
-  In this lesson you'll learn blah blah blah
+  Although the core function of HTML is simply to structure the content of a webpage (another language is used to style that content), there are some handy tags for formatting and organizing text. In this lesson, we’ll learn how to leverage the most common formatting tags.
 </p>
 
 <h5 id="topics-header" class="color-grey-500">Topics</h5>
 
-Topic # 1
+Styling Text with HTML Tags
 
 <hr>
 
-Topic #2
+Semantic vs. Non-Semantic HTML
 
 <hr>
 
-Topic #3
+Using Tags to Organize Content
 
 <hr>
 
-<a href="https://ga-waite.s3.amazonaws.com/production/sanitized-pdfs/introduction-to-html-2.pdf" target="_blank" download="introduction_to_html_study_guide.pdf" class="ant-btn" data-trackable="true" data-track-category="study guide" data-track-section="lesson page" data-track-action="download study guide"><span role="img" class="anticon"><svg viewBox="0 0 16 16" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" class=""><g class="download_svg__nc-icon-wrapper"><path d="M8 12c.3 0 .5-.1.7-.3L14.4 6 13 4.6l-4 4V0H7v8.6l-4-4L1.6 6l5.7 5.7c.2.2.4.3.7.3z"></path><path data-color="color-2" d="M1 14h14v2H1z"></path></g></svg></span><span> Download Study Guide</span></a>
+<a href="https://ga-create-api.s3.amazonaws.com/studyguides/formatting-and-organizing-with-da4d22.pdf" target="_blank" download="formtting_and_organizing_with_html_study_guide.pdf" class="ant-btn" data-trackable="true" data-track-category="study guide" data-track-section="lesson page" data-track-action="download study guide"><span role="img" class="anticon"><svg viewBox="0 0 16 16" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" class=""><g class="download_svg__nc-icon-wrapper"><path d="M8 12c.3 0 .5-.1.7-.3L14.4 6 13 4.6l-4 4V0H7v8.6l-4-4L1.6 6l5.7 5.7c.2.2.4.3.7.3z"></path><path data-color="color-2" d="M1 14h14v2H1z"></path></g></svg></span><span> Download Study Guide</span></a>
 
 ---
 
@@ -33,106 +31,173 @@ Topic #3
 <p>By the end of this lesson, you'll be able to:</p>
 
 <ul>
-  <li>Objective 1</li>
-  <li>Objective 2</li>
-  <li>Objective 3</li>
+  <li>Style text using HTML tags.</li>
+  <li>Explain the difference between semantic and non-semantic HTML.</li>
+  <li>Group HTML elements to create page sections.</li>
 </ul>
 
 ---
 
-<h1 class="slide-header">Video Content</h1>
-<!--
-  WISTIA EXAMPLE. REPLACE 11dit621rx with the id
--->
-<div class="wistia_embed wistia_async_11dit621rx wistia_embed_initialized" id="wistia-11dit621rx-1"
-  style="width: 100%; height: 50%;">
-  <div id="wistia_chrome_23" class="w-chrome notranslate" tabindex="-1">
-    <div id="wistia_grid_57_wrapper" style="display: block; width: 630px; height: 354.375px;">
-      <div id="wistia_grid_57_above" style="height: 0px; font-size: 0px; line-height: 0px;"> </div>
-      <div id="wistia_grid_57_main" style="width: 630px; left: 0px; height: 354.375px; margin-top: 0px;">
-        <div id="wistia_grid_57_center" style="width: 100%; height: 100%;">
-          <div class="w-video-wrapper w-css-reset"
-            style="height: 100%; position: absolute; top: 0px; width: 100%; opacity: 1;">
-            <video id="wistia_simple_video_135" crossorigin="anonymous"
-              poster="https://fast.wistia.com/assets/images/blank.gif" aria-label="Video" controlslist="nodownload"
-              playsinline="" preload="auto" type="video/m3u8" x-webkit-airplay="allow"
-              style="background: transparent; display: block; height: 100%; max-height: none; max-width: none; position: static; visibility: visible; width: 100%; object-fit: contain;"></video>
-          </div>
-          <div class="w-ui-container"
-            style="height: 100%; left: 0px; position: absolute; top: 0px; width: 100%; opacity: 1;">
-            <div class="w-vulcan-v2 w-css-reset" id="w-vulcan-v2-56"
-              style="border-radius: 0px; box-sizing: border-box; cursor: default; direction: ltr; height: 100%; left: 0px; position: absolute; visibility: visible; top: 0px; width: 100%;">
-              <div class="w-vulcan--background w-css-reset"
-                style="height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;">
-                <div class="w-css-reset" data-handle="statusBar"></div>
-                <div class="w-css-reset" data-handle="backgroundFocus"><button
-                    aria-label="Play Video: A Brief History of the Web" class="w-css-reset w-vulcan-v2-button"
-                    tabindex="0" style="width: 0px; height: 0px; pointer-events: none;"></button></div>
-              </div>
-              <div aria-live="polite" class="w-vulcan--aria-live w-css-reset" aria-atomic="true"
-                style="position: absolute; left: -99999em;"></div>
-              <div class="w-vulcan-overlays-table w-css-reset"
-                style="display: table; pointer-events: none; position: absolute; width: 100%;">
-                <div class="w-vulcan-overlays--left w-css-reset"
-                  style="display: table-cell; vertical-align: top; position: relative; width: 0px;">
-                  <div class="w-css-reset" style="height: 321.375px;"></div>
-                </div>
-                <div class="w-vulcan-overlays--center w-css-reset"
-                  style="display: table-cell; vertical-align: top; position: relative; width: 100%;">
-                  <div class="w-css-reset" style="height: 321.375px;">
-                    <div class="w-css-reset" data-handle="bigPlayButton" style="pointer-events: auto;">
-                      <div class="w-bpb-wrapper w-css-reset w-css-reset-tree"
-                        style="border-radius: 0px; display: none; left: calc(50%); margin-left: -61.5234px; margin-top: -39.375px; overflow: hidden; position: absolute; top: calc(50% + 0px);">
-                        <button class="w-big-play-button w-css-reset-button-important w-vulcan-v2-button" tabindex="0"
-                          type="button" style="cursor: pointer; height: 78.75px; box-shadow: none; width: 123.047px;">
-                          <div
-                            style="background: rgb(1, 121, 145); display: block; left: 0px; height: 78.75px; mix-blend-mode: darken; position: absolute; top: 0px; width: 123.047px;">
-                          </div>
-                          <div
-                            style="background-color: rgba(1, 121, 145, 0.7); height: 78.75px; left: 0px; position: absolute; top: 0px; transition: background-color 150ms ease 0s; width: 123.047px;">
-                          </div><svg x="0px" y="0px" viewBox="0 0 125 80" enable-background="new 0 0 125 80"
-                            aria-hidden="true" alt=""
-                            style="fill: rgb(255, 255, 255); height: 78.75px; left: 0px; stroke-width: 0px; top: 0px; width: 100%; position: absolute;">
-                            <rect fill-rule="evenodd" clip-rule="evenodd" fill="none" width="125" height="80"></rect>
-                            <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" points="53,22 53,58 79,40">
-                            </polygon>
-                          </svg>
-                        </button>
-                      </div>
-                    </div>
-                    <div class="w-css-reset" data-handle="clickForSoundButton" style="pointer-events: auto;">
-  <div class="w-css-reset w-css-reset-tree" data-handle="click-for-sound-backdrop"
-    style="display: none; height: 100%; left: 0px; pointer-events: auto; position: absolute; top: 0px; width: 100%;">
-    <button aria-label="Click for sound" class="w-vulcan-v2-button click-for-sound-btn"
-      style="background: rgba(0, 0, 0, 0.8); border: 2px solid transparent; border-radius: 60px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; outline: none; pointer-events: auto; position: absolute; right: 20.1484px; top: 20.1484px; max-width: 589.703px;">
-      <div
-        style="display: flex; align-items: center; justify-content: flex-end; white-space: nowrap; overflow: hidden; max-width: 0px; transition: max-width 200ms ease 0s;">
-        <span
-          style="color: rgb(255, 255, 255); font-family: WistiaPlayerInter, Helvetica, sans-serif; font-size: 15px; font-weight: 500; padding-left: 1em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 630px;">Click
-          for sound</span>
-      </div><svg viewBox="0 0 237 237" width="51.6796875" height="51.6796875"></svg>
-    </button>
-</div>
-</div>
-</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- YOUTUBE -->
-<!-- VIMEO -->
-<details>
-  <summary>Transcript</summary>
+<h1 class="slide-header">Options for Styling Text</h1>
+
+In the future, you’ll be using multiple languages to shape and style a webpage, including CSS and JavaScript. 
+
+However, there are also some HTML elements that allow for this. You may be familiar with the usual suspects from word-processing programs that also make appearances in HTML:
+
+| Text Style | HTML Element Tags | 
+| -------- | -------- | 
+| **bold text**    | `<strong>  </strong>`     | 
+| _italic text_    | `<em> </em>`     | 
+
+When adding these tags to HTML, they should wrap around the text element you want to style, like so:
+```HTML
+<p>Can’t Buy <strong>Me</strong> Love</p>
+```
+
+**Note**: The “em” in the italic text tag stands for _emphasis_.
+
+---
+
+<h1 class="slide-header">Styling Text</h1>
+
+Let’s add some style to your roommate Zelda’s website!
+
+Go ahead and practice applying the  `<strong>` and `<em>` tags to Zelda’s site:
+1. Use `<em>` to italicize the “Is” in the song title “Love is Weird” (because, you know, it really is!).
+2. Use `<strong>` to bold the words “Darkness” and “Dark” in the song title “Darkness in the Dark.”
+
+---
+
+<h1 class="slide-header">Adventures in HTML Styling</h1>
+
+What would happen if we added a `<strong>` tag to the `<h1>` text: Kasserole?
+
+Not much happens! That’s because all of the heading tags — `<h1-6>` — come with some default styling that make them bold already. Adding `<strong>` won’t make the `<h1>` double-bold. But what if you try adding an `<em>` tag to Kasserole? Magical italics appear!
   
-  <p class="transcript-text">
-    Lorem ipsum etc etc
-  </p>
-</details>
+All this to say: Some styling tags work on some HTML elements but not others. If you add a tag and nothing happens, don’t fret! When you learn CSS, you’ll be able to apply much more specific styling to any text element you like.
+
+---
+
+<h1 class="slide-header">Organizing Content on a Webpage</h1>
+
+Now that you’ve styled your text, let’s see what HTML offers up in terms of page organization. 
+
+HTML has tags that make it easy to organize and keep track of all the content you add to a webpage. While these tags won’t add new content, they’ll wrap around several elements to say, “These are all related to each other!” Using organizational tags also allows you to apply specific styles to specific parts of your webpage when you start using CSS.
+
+There are lots of organizational tags, which we can group into two major types:
+
+| Semantic HTML Tags | Non-Semantic HTML Tags |
+| --- | --- |
+| Tell you something about the content they contain. | Don’t tell you much about the content they contain. |
+| Indicate how the content will be displayed on the webpage. | Are used more generally to organize groups of elements. |
+| `<header>`, `<main>`, `<footer>`, `<article>`, `<aside>`, `<nav>` | `<div>`, `<span>` |
+
+---
+
+<h1 class="slide-header">Semantic HTML</h1>
+
+Semantic HTML helps you introduce meaning _and_ organization to your webpages. Most webpages have some common elements; a navigation bar that takes you to different parts of a website, along with a main section of content.
+
+As a developer, it’s helpful to keep track of where all of the content you are adding to a webpage will go. This also helps browsers read and make sense of that content. When a browser sees a `<nav>` tag on a website, it knows, “Hey! This is the navigation. It will help people get around the site and tells me what content is here. Thanks for the heads up!”
+
+Here’s how you might use some common semantic HTML tags (<a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank" rel="noreferrer noopener">click here for a complete list</a>):
+
+![link text](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/intro-to-html/website-sections.png)
+
+---
+
+<h1 class="slide-header">Knowledge Check</h1>
+
+Let’s look at Kasserole’s website. Which semantic tag might we add around `<h1>` and `<h3>` to group them together?
+
+  ```html
+  <h1>Kasserole</h1>
+  <h3>Critics dub Kasserole the Metallica of modern times.</h3>
+  <p>Out of the oven and into your soul.</p>
+  <p><a href="https://www.youtube.com/watch?v=vm32-ted2rI" target="_blank">Rock out to a demo.</a></p>
+  <p><a href="https://pitchfork.com/" target="_blank">Check out our reviews on Pitchfork.</a></p>
+  <h2>Song List.</h2>
+  <ul>
+    <li>Ogre Blood Ballad</li>
+    <li>Love is Weird</li>
+    <li>Just Because</li>
+    <li>Darkness in the Dark</li>
+  </ul>
+  ```
+  <fieldset>
+    <legend>Please select one of the following</legend>
+    <input type="radio" name="action" id="main-answer" value="main"  /><label for="event">main</label><br />
+    <input type="radio" name="action" id="nav-answer" value="nav" /><label for="message">nav</label><br />
+    <input type="radio" name="action" id="header-answer" value="header" correct="true"/><label for="track">header</label><br />
+    <input type="radio" name="action" id="article-answer" value="article"  /><label for="event">article</label><br />
+  </fieldset>
+  <button class="ant-btn ant-btn-primary multiple-choice-radio-submit">Submit Answer</button>
+---
+
+<h1 class="slide-header">Non-Semantic HTML</h1>
+
+Sometimes, you just need to group things together, and the result won’t make up a specific part of a website. In this case, you’d use a handy non-semantic HTML tag:
+* A `<div>` groups several elements together.
+* A `<span>` groups just a few words.
+
+Non-semantic tags help you organize your content in HTML, but they’re especially important when you start styling your content with CSS. What if you have a header, paragraph, and list that are all related to the same topic and you want to give them the same style? You could group them all in a `<div>` and then add CSS styling to the `<div>` that applies to all of the elements it contains.
+
+---
+
+<h1 class="slide-header">Non-Semantic Tags</h1>
+
+## div 
+
+`<div>` stands for division, as in the _division_ of content. Think of `<div>` tags as a way to group the information on your webpage into logical sections. After that, you can style all of the elements in that section similarly without affecting other nearby elements.
+
+A `<div>` tag will wrap around HTML elements and group them together, like so:
+```html
+<div>
+  <h2>The start of a very important section.</h2>
+  <p>This section has content that’s all related in some way.</p>
+  <p>So we want to group it together and set it off from the rest of a page.</p>
+  <p>That’s why we wrapped all of this in a div!</p>
+</div>
+```
+
+## span
+
+You can also group content on a smaller level — within a sentence or paragraph — using the `<span>` tag. Maybe you want the first word in a sentence to be a different color, or a larger size. You can wrap simply that word in `<span>`!
+
+`<span>`’s syntax is similar to that of the `<strong>` and `<em>` tags we learned about earlier in this lesson.
+
+```html
+<p>I want to call out <span>these words</span> in this sentence, but none of the other ones.</p>
+```
+---
+
+<h1 class="slide-header">The div Challenge</h1>
+
+Your challenge: In a new `<div>` container, add a header and list of band members to the webpage.
+
+  Follow these steps:
+  1. Beneath the picture of the casserole, open up a `<div>`.
+  2. In the `<div>`, add an `<h2>` with text that reads: `Band Members`
+  3. After the `<h2>`, add an _unordered_ list element opening tag. 
+  4. Add the following four band members as list items and close the `<ul>`. 
+      * Zelda Ziggler: Lead vocals
+      * Billy Chu: Lead guitar and backup vocals
+      * JP Parthasarathy: Bass guitar
+      * Plum Porter: Percussion
+  5. Close the `<div>`.
+  
+Happy organizing! 
+
+---
+
+<h1 class="slide-header">Conclusion</h1>
+
+In this lesson, you’ve upped your HTML game. Your new skills include:
+
+* Styling text (bold, italics) with `<em>` and `<strong>` tags.
+* Chunking out a webpage into sections with semantic tags like `<main>` and non-semantic tags like `<div>` and `<span>`.
+
+Zelda’s website — while no work of art — certainly has important information that tells a story about Kasserole.
 
 ---
 
