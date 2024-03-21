@@ -1,6 +1,6 @@
 <textarea id="source">
 
-<h1 class="slide-header">Formatting and Organizing with HTML</h1>
+<h1 class="slide-header">Formatting and Organizing Content with HTML</h1>
 
 <span id=time-estimate class="color-grey-500">30 mins</span>
 
