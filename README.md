@@ -66,6 +66,12 @@ Go ahead and practice applying the  `<strong>` and `<em>` tags to Zelda’s site
 1. Use `<em>` to italicize the “Is” in the song title “Love is Weird” (because, you know, it really is!).
 2. Use `<strong>` to bold the words “Darkness” and “Dark” in the song title “Darkness in the Dark.”
 
+  <iframe height="300" style="width: 100%;" scrolling="no" title="Styling Text with HTML" src="https://codepen.io/GAmarketing/embed/poBNWyB?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href="https://codepen.io/GAmarketing/pen/poBNWyB">
+    Styling Text with HTML</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
+    on <a href="https://codepen.io">CodePen</a>.
+  </iframe>
+
 ---
 
 <h1 class="slide-header">Adventures in HTML Styling</h1>
@@ -187,6 +193,12 @@ Your challenge: In a new `<div>` container, add a header and list of band member
   5. Close the `<div>`.
   
 Happy organizing! 
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="The Div Challenge" src="https://codepen.io/GAmarketing/embed/ZEZBXOz?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/GAmarketing/pen/ZEZBXOz">
+  The Div Challenge</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ---
 
