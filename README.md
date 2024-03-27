@@ -132,10 +132,10 @@ Let’s look at Kasserole’s website. Which semantic tag might we add around `<
   ```
   <fieldset>
     <legend>Please select one of the following</legend>
-    <input type="radio" name="action" id="main-answer" value="main"  /><label for="event">main</label><br />
-    <input type="radio" name="action" id="nav-answer" value="nav" /><label for="message">nav</label><br />
-    <input type="radio" name="action" id="header-answer" value="header" correct="true"/><label for="track">header</label><br />
-    <input type="radio" name="action" id="article-answer" value="article"  /><label for="event">article</label><br />
+    <input type="radio" name="action" id="main-answer" value="main"  /><label for="main-answer">main</label><br />
+    <input type="radio" name="action" id="nav-answer" value="nav" /><label for="nav-answer">nav</label><br />
+    <input type="radio" name="action" id="header-answer" value="header" correct="true"/><label for="header-answer">header</label><br />
+    <input type="radio" name="action" id="article-answer" value="article"  /><label for="article-answer">article</label><br />
   </fieldset>
   <button class="ant-btn ant-btn-primary multiple-choice-radio-submit">Submit Answer</button>
 ---
@@ -210,61 +210,5 @@ In this lesson, you’ve upped your HTML game. Your new skills include:
 * Chunking out a webpage into sections with semantic tags like `<main>` and non-semantic tags like `<div>` and `<span>`.
 
 Zelda’s website — while no work of art — certainly has important information that tells a story about Kasserole.
-
----
-
-
-<h1 class="slide-header">Code Challenge</h1>
-
-<iframe height="500" style="width: 100%;" scrolling="no" title="Code Challenge Test" src="https://codepen.io/Ryan-Brodsky/embed/VwNwXqq?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-    See the Pen <a href="https://codepen.io/Ryan-Brodsky/pen/VwNwXqq">
-    Code Challenge Test</a> by Ryan Brodsky (<a href="https://codepen.io/Ryan-Brodsky">@Ryan-Brodsky</a>)
-    on <a href="https://codepen.io">CodePen</a>.
-  </iframe>
-
----
-
-<h1 class="slide-header">Multiple Choice Question</h1>
-
-<fieldset>
-  <legend>Please select one of the following</legend>
-  <input type="radio" name="action" id="track" value="track" correct="true"/><label for="track">Correct Answer</label><br />
-  <input type="radio" name="action" id="event" value="event"  /><label for="event">Incorrect</label><br />
-  <input type="radio" name="action" id="message" value="message" /><label for="message">Incorrect</label><br />
-</fieldset>
-<button class="ant-btn ant-btn-primary multiple-choice-radio-submit">Submit Answer</button>
-
-<fieldset>
-  <legend>Please select all that apply</legend>
-  <input type="checkbox" id="uniqueAnswer" name="unique" correct="true"/><label for="uniqueAnswer">Correct Answer</label><br />
-  <input type="checkbox" id="uniqueAnswer2" name="unique2" /><label for="uniqueAnswer2">Incorrect Answer</label><br />
-  <input type="checkbox" id="uniqueAnswer3" name="unique3" correct="true"/><label for="uniqueAnswer3">Correct Answer</label><br />
-</fieldset>
-
-<button class="ant-btn ant-btn-primary multiple-choice-checkbox-submit">Submit Answer</button>
-
----
-
-<h1 class="slide-header">Cards Slide</h1>
-
-<details>
-  <summary>Vocabulary Term</summary>
-  
-  <p class="transcript-text">
-    Definition when "flipped" by the student
-  </p>
-</details>
-
-<details>
-  <summary>Vocabulary Term</summary>
-  
-  <p class="transcript-text">
-    Definition when "flipped" by the student
-  </p>
-</details>
-
----
-
-<h1 class="slide-header">Conclusion</h1>
 
 </textarea>
