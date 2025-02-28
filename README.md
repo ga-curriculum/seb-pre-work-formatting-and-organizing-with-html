@@ -22,7 +22,7 @@ Using Tags to Organize Content
 
 <hr>
 
-<a href="https://ga-create-api.s3.amazonaws.com/studyguides/formatting-and-organizing-with-da4d22.pdf" target="_blank" download="formtting_and_organizing_with_html_study_guide.pdf" class="ant-btn" data-trackable="true" data-track-category="study guide" data-track-section="lesson page" data-track-action="download study guide"><span role="img" class="anticon"><svg viewBox="0 0 16 16" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" class=""><g class="download_svg__nc-icon-wrapper"><path d="M8 12c.3 0 .5-.1.7-.3L14.4 6 13 4.6l-4 4V0H7v8.6l-4-4L1.6 6l5.7 5.7c.2.2.4.3.7.3z"></path><path data-color="color-2" d="M1 14h14v2H1z"></path></g></svg></span><span> Download Study Guide</span></a>
+<a href="./assets/formatting_and_organizing_with_html_study_guide.pdf" target="_blank" download="formatting_and_organizing_with_html_study_guide.pdf" class="ant-btn" data-trackable="true" data-track-category="study guide" data-track-section="lesson page" data-track-action="download study guide"><span role="img" class="anticon"><svg viewBox="0 0 16 16" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" class=""><g class="download_svg__nc-icon-wrapper"><path d="M8 12c.3 0 .5-.1.7-.3L14.4 6 13 4.6l-4 4V0H7v8.6l-4-4L1.6 6l5.7 5.7c.2.2.4.3.7.3z"></path><path data-color="color-2" d="M1 14h14v2H1z"></path></g></svg></span><span> Download Study Guide</span></a>
 
 ---
 
@@ -106,9 +106,9 @@ Semantic HTML helps you introduce meaning _and_ organization to your webpages. M
 
 As a developer, it’s helpful to keep track of where all of the content you are adding to a webpage will go. This also helps browsers read and make sense of that content. When a browser sees a `<nav>` tag on a website, it knows, “Hey! This is the navigation. It will help people get around the site and tells me what content is here. Thanks for the heads up!”
 
-Here’s how you might use some common semantic HTML tags (<a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank" rel="noreferrer noopener">click here for a complete list</a>):
+Here’s how you might use some common semantic HTML tags (<a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank" rel="noreferrer noopener">check out w3schools for a complete list</a>):
 
-![link text](https://ga-instruction.s3.amazonaws.com/assets/intro-tech/html-unit-assets/intro-to-html/website-sections.png)
+<img src="./assets/website-sections.png" alt="Sections of a Webpage" style="width:50%;"/>
 
 ---
 
