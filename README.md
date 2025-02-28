@@ -40,16 +40,17 @@ Using Tags to Organize Content
 
 <h1 class="slide-header">Options for Styling Text</h1>
 
-In the future, you’ll be using multiple languages to shape and style a webpage, including CSS and JavaScript. 
+In the future, you’ll be using multiple languages to shape and style a webpage, including CSS and JavaScript.
 
 However, there are also some HTML elements that allow for this. You may be familiar with the usual suspects from word-processing programs that also make appearances in HTML:
 
-| Text Style | HTML Element Tags | 
-| -------- | -------- | 
-| **bold text**    | `<strong>  </strong>`     | 
-| _italic text_    | `<em> </em>`     | 
+| Text Style    | HTML Element Tags     |
+| ------------- | --------------------- |
+| **bold text** | `<strong>  </strong>` |
+| _italic text_ | `<em> </em>`          |
 
 When adding these tags to HTML, they should wrap around the text element you want to style, like so:
+
 ```HTML
 <p>Can’t Buy <strong>Me</strong> Love</p>
 ```
@@ -62,7 +63,8 @@ When adding these tags to HTML, they should wrap around the text element you wan
 
 Let’s add some style to your roommate Zelda’s website!
 
-Go ahead and practice applying the  `<strong>` and `<em>` tags to Zelda’s site:
+Go ahead and practice applying the `<strong>` and `<em>` tags to Zelda’s site:
+
 1. Use `<em>` to italicize the “Is” in the song title “Love is Weird” (because, you know, it really is!).
 2. Use `<strong>` to bold the words “Darkness” and “Dark” in the song title “Darkness in the Dark.”
 
@@ -79,24 +81,24 @@ Go ahead and practice applying the  `<strong>` and `<em>` tags to Zelda’s site
 What would happen if we added a `<strong>` tag to the `<h1>` text: Kasserole?
 
 Not much happens! That’s because all of the heading tags — `<h1-6>` — come with some default styling that make them bold already. Adding `<strong>` won’t make the `<h1>` double-bold. But what if you try adding an `<em>` tag to Kasserole? Magical italics appear!
-  
+
 All this to say: Some styling tags work on some HTML elements but not others. If you add a tag and nothing happens, don’t fret! When you learn CSS, you’ll be able to apply much more specific styling to any text element you like.
 
 ---
 
 <h1 class="slide-header">Organizing Content on a Webpage</h1>
 
-Now that you’ve styled your text, let’s see what HTML offers up in terms of page organization. 
+Now that you’ve styled your text, let’s see what HTML offers up in terms of page organization.
 
 HTML has tags that make it easy to organize and keep track of all the content you add to a webpage. While these tags won’t add new content, they’ll wrap around several elements to say, “These are all related to each other!” Using organizational tags also allows you to apply specific styles to specific parts of your webpage when you start using CSS.
 
 There are lots of organizational tags, which we can group into two major types:
 
-| Semantic HTML Tags | Non-Semantic HTML Tags |
-| --- | --- |
-| Tell you something about the content they contain. | Don’t tell you much about the content they contain. |
-| Indicate how the content will be displayed on the webpage. | Are used more generally to organize groups of elements. |
-| `<header>`, `<main>`, `<footer>`, `<article>`, `<aside>`, `<nav>` | `<div>`, `<span>` |
+| Semantic HTML Tags                                                | Non-Semantic HTML Tags                                  |
+| ----------------------------------------------------------------- | ------------------------------------------------------- |
+| Tell you something about the content they contain.                | Don’t tell you much about the content they contain.     |
+| Indicate how the content will be displayed on the webpage.        | Are used more generally to organize groups of elements. |
+| `<header>`, `<main>`, `<footer>`, `<article>`, `<aside>`, `<nav>` | `<div>`, `<span>`                                       |
 
 ---
 
@@ -116,20 +118,25 @@ Here’s how you might use some common semantic HTML tags (<a href="https://www.
 
 Let’s look at Kasserole’s website. Which semantic tag might we add around `<h1>` and `<h3>` to group them together?
 
-  ```html
-  <h1>Kasserole</h1>
-  <h3>Critics dub Kasserole the Metallica of modern times.</h3>
-  <p>Out of the oven and into your soul.</p>
-  <p><a href="https://www.youtube.com/watch?v=vm32-ted2rI" target="_blank">Rock out to a demo.</a></p>
-  <p><a href="https://pitchfork.com/" target="_blank">Check out our reviews on Pitchfork.</a></p>
-  <h2>Song List.</h2>
-  <ul>
-    <li>Ogre Blood Ballad</li>
-    <li>Love is Weird</li>
-    <li>Just Because</li>
-    <li>Darkness in the Dark</li>
-  </ul>
-  ```
+```html
+<h1>Kasserole</h1>
+<h3>Critics dub Kasserole the Metallica of modern times.</h3>
+<p>Out of the oven and into your soul.</p>
+<p>
+  <a href="https://www.youtube.com/watch?v=vm32-ted2rI" target="_blank">Rock out to a demo.</a>
+</p>
+<p>
+  <a href="https://pitchfork.com/" target="_blank">Check out our reviews on Pitchfork.</a>
+</p>
+<h2>Song List.</h2>
+<ul>
+  <li>Ogre Blood Ballad</li>
+  <li>Love is Weird</li>
+  <li>Just Because</li>
+  <li>Darkness in the Dark</li>
+</ul>
+```
+
   <fieldset>
     <legend>Please select one of the following</legend>
     <input type="radio" name="action" id="main-answer" value="main"  /><label for="main-answer">main</label><br />
@@ -138,13 +145,15 @@ Let’s look at Kasserole’s website. Which semantic tag might we add around `<
     <input type="radio" name="action" id="article-answer" value="article"  /><label for="article-answer">article</label><br />
   </fieldset>
   <button class="ant-btn ant-btn-primary multiple-choice-radio-submit">Submit Answer</button>
+
 ---
 
 <h1 class="slide-header">Non-Semantic HTML</h1>
 
 Sometimes, you just need to group things together, and the result won’t make up a specific part of a website. In this case, you’d use a handy non-semantic HTML tag:
-* A `<div>` groups several elements together.
-* A `<span>` groups just a few words.
+
+- A `<div>` groups several elements together.
+- A `<span>` groups just a few words.
 
 Non-semantic tags help you organize your content in HTML, but they’re especially important when you start styling your content with CSS. What if you have a header, paragraph, and list that are all related to the same topic and you want to give them the same style? You could group them all in a `<div>` and then add CSS styling to the `<div>` that applies to all of the elements it contains.
 
@@ -152,11 +161,12 @@ Non-semantic tags help you organize your content in HTML, but they’re especial
 
 <h1 class="slide-header">Non-Semantic Tags</h1>
 
-## div 
+## div
 
 `<div>` stands for division, as in the _division_ of content. Think of `<div>` tags as a way to group the information on your webpage into logical sections. After that, you can style all of the elements in that section similarly without affecting other nearby elements.
 
 A `<div>` tag will wrap around HTML elements and group them together, like so:
+
 ```html
 <div>
   <h2>The start of a very important section.</h2>
@@ -175,24 +185,26 @@ You can also group content on a smaller level — within a sentence or paragraph
 ```html
 <p>I want to call out <span>these words</span> in this sentence, but none of the other ones.</p>
 ```
+
 ---
 
 <h1 class="slide-header">The div Challenge</h1>
 
 Your challenge: In a new `<div>` container, add a header and list of band members to the webpage.
 
-  Follow these steps:
-  1. Beneath the picture of the casserole, open up a `<div>`.
-  2. In the `<div>`, add an `<h2>` with text that reads: `Band Members`
-  3. After the `<h2>`, add an _unordered_ list element opening tag. 
-  4. Add the following four band members as list items and close the `<ul>`. 
-      * Zelda Ziggler: Lead vocals
-      * Billy Chu: Lead guitar and backup vocals
-      * JP Parthasarathy: Bass guitar
-      * Plum Porter: Percussion
-  5. Close the `<div>`.
-  
-Happy organizing! 
+Follow these steps:
+
+1. Beneath the picture of the casserole, open up a `<div>`.
+2. In the `<div>`, add an `<h2>` with text that reads: `Band Members`
+3. After the `<h2>`, add an _unordered_ list element opening tag.
+4. Add the following four band members as list items and close the `<ul>`.
+   - Zelda Ziggler: Lead vocals
+   - Billy Chu: Lead guitar and backup vocals
+   - JP Parthasarathy: Bass guitar
+   - Plum Porter: Percussion
+5. Close the `<div>`.
+
+Happy organizing!
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="The Div Challenge" src="https://codepen.io/GAmarketing/embed/ZEZBXOz?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/GAmarketing/pen/ZEZBXOz">
@@ -206,8 +218,8 @@ Happy organizing!
 
 In this lesson, you’ve upped your HTML game. Your new skills include:
 
-* Styling text (bold, italics) with `<em>` and `<strong>` tags.
-* Chunking out a webpage into sections with semantic tags like `<main>` and non-semantic tags like `<div>` and `<span>`.
+- Styling text (bold, italics) with `<em>` and `<strong>` tags.
+- Chunking out a webpage into sections with semantic tags like `<main>` and non-semantic tags like `<div>` and `<span>`.
 
 Zelda’s website — while no work of art — certainly has important information that tells a story about Kasserole.
 
