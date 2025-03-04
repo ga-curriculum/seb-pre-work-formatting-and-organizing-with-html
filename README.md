@@ -1,4 +1,4 @@
-<!-- <textarea id="source"> -->
+<textarea id="source">
 
 <h1 class="slide-header">Formatting and Organizing Content with HTML</h1>
 
@@ -53,7 +53,7 @@ These tags wrap around the text you want to style:
 <p>Try our <strong>Signature Espresso</strong> for a bold flavor.</p>
 ```
 
-This will display as: 
+This will display as:
 
 Try our **Signature Espresso** for a bold flavor.
 
@@ -63,8 +63,7 @@ Try our **Signature Espresso** for a bold flavor.
 
 This will display as:
 
-Our *organic matcha* is a customer favorite!
-
+Our _organic matcha_ is a customer favorite!
 
 ---
 
@@ -75,7 +74,6 @@ Let’s add some formatting to Café Aurora’s website!
 1. Use `<strong>` to bold "Signature" in `Signature Arabic Coffee`.
 
 2. Use `<em>` to italicize "Organic" in the menu item `Organic Matcha Latte`.
-
 
 <iframe height="400" style="width: 100%;" scrolling="no" title="Formatting Text with HTML" src="https://codepen.io/GAmarketing/embed/pvoPgvv?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/GAmarketing/pen/pvoPgvv">
@@ -105,7 +103,7 @@ HTML provides tags specifically designed to help define sections of a webpage. W
 
 HTML structural elements fall into two categories: **semantic** and **non-semantic**.
 
-The word "semantic" means that the tag's name is significant and provides meaning about its purpose. 
+The word "semantic" means that the tag's name is significant and provides meaning about its purpose.
 
 Here's how `semantic HTML` compares to `non-semantic HTML`:
 
@@ -121,14 +119,13 @@ Using semantic HTML tags makes your code more readable and meaningful. For examp
 
 <h1 class="slide-header">Semantic HTML</h1>
 
-Semantic HTML helps introduce both **meaning** and **organization** to a webpage. Most webpages include common sections, such as a *navigation bar*, a *main content area*, and a *footer*.
+Semantic HTML helps introduce both **meaning** and **organization** to a webpage. Most webpages include common sections, such as a _navigation bar_, a _main content area_, and a _footer_.
 
 As a developer, structuring your content with semantic HTML makes it easier to understand and maintain. It helps browsers and search engines understand what different parts of a webpage mean.
 
-When a browser sees a `<nav>` tag on a website, it knows, *"Hey! This is the navigation. It will help people get around the site and tells me what content is here."*
+When a browser sees a `<nav>` tag on a website, it knows, _"Hey! This is the navigation. It will help people get around the site and tells me what content is here."_
 
 Here’s an example of how some common semantic tags are used in a webpage layout:
-
 
 <img src="./assets/website-sections.png" alt="Sections of a Webpage" style="width:300px;"/>
 
@@ -147,10 +144,18 @@ Let’s look at Café Aurora's website. Which semantic tag might we add around `
 <h2>Bringing people together over artisanal coffee and fresh pastries.</h2>
 <p>Locally roasted coffee, specialty teas, and homemade treats.</p>
 <p>
-  <a href="https://www.example.com/menu" target="_blank">View our menu.</a>
+  <a
+    href="https://www.example.com/menu"
+    target="_blank"
+    >View our menu.</a
+  >
 </p>
 <p>
-  <a href="https://www.example.com/reviews" target="_blank">See what our customers are saying.</a>
+  <a
+    href="https://www.example.com/reviews"
+    target="_blank"
+    >See what our customers are saying.</a
+  >
 </p>
 
 <h2>Our Specialties</h2>
@@ -162,7 +167,12 @@ Let’s look at Café Aurora's website. Which semantic tag might we add around `
   <li>Traditional Date Pastries</li>
 </ul>
 
-<img src="https://tinyurl.com/html-coffee-img" alt="Three friends sharing coffee" width="324" height="242" />
+<img
+  src="https://tinyurl.com/html-coffee-img"
+  alt="Three friends sharing coffee"
+  width="324"
+  height="242"
+/>
 ```
 
 <fieldset>
@@ -239,14 +249,14 @@ Follow these steps:
 
 **2. In the `<div>`, add an `<h2>` with text that reads: `Meet Our Team`.**
 
-**3. After the `<h2>`, add an *unordered list* element opening tag.**
+**3. After the `<h2>`, add an _unordered list_ element opening tag.**
 
 **4. Add the following team members as list items and close the `<ul>`:**
 
-   - `Omar Khalid: Head Barista`
-   - `Aiden Lee: Pastry Chef`
-   - `Sofia Chen: Café Manager`
-   - `Mateo Alvarez: Customer Relations`
+- `Omar Khalid: Head Barista`
+- `Aiden Lee: Pastry Chef`
+- `Sofia Chen: Café Manager`
+- `Mateo Alvarez: Customer Relations`
 
 **5. Close the `<div>`.**
 
@@ -264,7 +274,7 @@ Happy organizing!
 
 In this lesson, you’ve expanded your HTML skills. Your new abilities include:
 
-- Styling text with `<em>` and `<strong>` to add emphasis and importance.
+- Formatting text with `<em>` and `<strong>` to add emphasis and importance.
 
 - Structuring content with semantic tags like `<header>`, `<main>`, and `<footer>` to give meaning to different parts of a webpage.
 
@@ -272,4 +282,4 @@ In this lesson, you’ve expanded your HTML skills. Your new abilities include:
 
 Café Aurora’s website is now well-organized, readable, and structured for growth. Great work!
 
-<!-- </textarea> -->
+</textarea>
