@@ -5,7 +5,7 @@
 <span id=time-estimate class="color-grey-500">30 mins</span>
 
 <p id="lesson-description">
-Although the core function of HTML is simply to structure the content of a webpage (another language is used to style that content), there are some handy tags for formatting and organizing text. In this lesson, we’ll learn how to leverage the most common formatting tags.
+While HTML primarily structures the content of a webpage, it also includes useful tags for formatting and organizing text. In this lesson, we’ll explore some of the most common formatting tags and how to use them effectively.
 </p>
 
 <h5 id="topics-header" class="color-grey-500">Topics</h5>
