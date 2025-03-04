@@ -1,11 +1,11 @@
-<textarea id="source">
+<!-- <textarea id="source"> -->
 
 <h1 class="slide-header">Formatting and Organizing Content with HTML</h1>
 
 <span id=time-estimate class="color-grey-500">30 mins</span>
 
 <p id="lesson-description">
-  Although the core function of HTML is simply to structure the content of a webpage (another language is used to style that content), there are some handy tags for formatting and organizing text. In this lesson, we’ll learn how to leverage the most common formatting tags.
+Although the core function of HTML is simply to structure the content of a webpage (another language is used to style that content), there are some handy tags for formatting and organizing text. In this lesson, we’ll learn how to leverage the most common formatting tags.
 </p>
 
 <h5 id="topics-header" class="color-grey-500">Topics</h5>
@@ -40,174 +40,220 @@ Using Tags to Organize Content
 
 <h1 class="slide-header">Options for Styling Text</h1>
 
-In the future, you’ll be using multiple languages to shape and style a webpage, including CSS and JavaScript.
-
-However, there are also some HTML elements that allow for this. You may be familiar with the usual suspects from word-processing programs that also make appearances in HTML:
+While HTML is primarily for structuring content, it also includes some basic elements for styling text. You’ll explore more advanced styling with CSS in a future lesson, but for now, let’s look at a few built-in HTML tags that modify text appearance.
 
 | Text Style    | HTML Element Tags     |
 | ------------- | --------------------- |
 | **bold text** | `<strong>  </strong>` |
 | _italic text_ | `<em> </em>`          |
 
-When adding these tags to HTML, they should wrap around the text element you want to style, like so:
+These tags wrap around the text you want to style:
 
-```HTML
-<p>Can’t Buy <strong>Me</strong> Love</p>
+```html
+<p>Try our <strong>Signature Espresso</strong> for a bold flavor.</p>
 ```
 
-**Note**: The “em” in the italic text tag stands for _emphasis_.
+This will display as: 
+
+Try our **Signature Espresso** for a bold flavor.
+
+```html
+<p>Our <em>organic matcha</em> is a customer favorite!</p>
+```
+
+This will display as:
+
+Our *organic matcha* is a customer favorite!
+
 
 ---
 
 <h1 class="slide-header">Styling Text</h1>
 
-Let’s add some style to your roommate Zelda’s website!
+Let’s add some formatting to Café Aurora’s website!
 
-Go ahead and practice applying the `<strong>` and `<em>` tags to Zelda’s site:
+1. Use `<strong>` to bold "Signature" in `Signature Arabic Coffee`.
 
-1. Use `<em>` to italicize the “Is” in the song title “Love is Weird” (because, you know, it really is!).
-2. Use `<strong>` to bold the words “Darkness” and “Dark” in the song title “Darkness in the Dark.”
+2. Use `<em>` to italicize "Organic" in the menu item `Organic Matcha Latte`.
 
-  <iframe height="300" style="width: 100%;" scrolling="no" title="Styling Text with HTML" src="https://codepen.io/GAmarketing/embed/poBNWyB?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-    See the Pen <a href="https://codepen.io/GAmarketing/pen/poBNWyB">
-    Styling Text with HTML</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
-    on <a href="https://codepen.io">CodePen</a>.
-  </iframe>
+
+<iframe height="400" style="width: 100%;" scrolling="no" title="Formatting Text with HTML" src="https://codepen.io/GAmarketing/embed/pvoPgvv?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/GAmarketing/pen/pvoPgvv">
+  Styling Text with HTML</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ---
 
-<h1 class="slide-header">Adventures in HTML Styling</h1>
+<h1 class="slide-header">Adventures in HTML Formatting</h1>
 
-What would happen if we added a `<strong>` tag to the `<h1>` text: Kasserole?
+What happens if you add a `<strong>` tag to the `<h1>` text "Café Aurora"?
 
-Not much happens! That’s because all of the heading tags — `<h1-6>` — come with some default styling that make them bold already. Adding `<strong>` won’t make the `<h1>` double-bold. But what if you try adding an `<em>` tag to Kasserole? Magical italics appear!
+Not much changes! That’s because all heading tags (`<h1>` - `<h6>`) have built-in bold styling by default. Adding `<strong>` won’t make them “extra bold.”
 
-All this to say: Some styling tags work on some HTML elements but not others. If you add a tag and nothing happens, don’t fret! When you learn CSS, you’ll be able to apply much more specific styling to any text element you like.
+However, if you add an `<em>` tag, the text will appear italicized!
+
+This shows that some styling tags work on certain elements but may not have a visible effect on others. If a tag doesn’t seem to work, don’t worry—when you learn CSS, you’ll have much more control over styling.
 
 ---
 
 <h1 class="slide-header">Organizing Content on a Webpage</h1>
 
-Now that you’ve styled your text, let’s see what HTML offers up in terms of page organization.
+Now that you've formatted text, it's time to organize your content using **HTML structural elements**.
 
-HTML has tags that make it easy to organize and keep track of all the content you add to a webpage. While these tags won’t add new content, they’ll wrap around several elements to say, “These are all related to each other!” Using organizational tags also allows you to apply specific styles to specific parts of your webpage when you start using CSS.
+HTML provides tags specifically designed to help define sections of a webpage. While these tags do not change how content appears, they’ll wrap around several elements to say, “These are all related to each other!” Using organizational tags helps browsers, search engines, and developers understand the role of each section.
 
-There are lots of organizational tags, which we can group into two major types:
+HTML structural elements fall into two categories: **semantic** and **non-semantic**.
 
-| Semantic HTML Tags                                                | Non-Semantic HTML Tags                                  |
-| ----------------------------------------------------------------- | ------------------------------------------------------- |
-| Tell you something about the content they contain.                | Don’t tell you much about the content they contain.     |
-| Indicate how the content will be displayed on the webpage.        | Are used more generally to organize groups of elements. |
-| `<header>`, `<main>`, `<footer>`, `<article>`, `<aside>`, `<nav>` | `<div>`, `<span>`                                       |
+The word "semantic" means that the tag's name is significant and provides meaning about its purpose. 
+
+Here's how `semantic HTML` compares to `non-semantic HTML`:
+
+| Semantic HTML Tags                                                   | Non-Semantic HTML Tags                                  |
+| -------------------------------------------------------------------- | ------------------------------------------------------- |
+| Tell you something about the content they contain.                   | Don’t tell you much about the content they contain.     |
+| Indicate how the content will be displayed on the webpage.           | Are used more generally to organize groups of elements. |
+| `<header>`, `<main>`, `<footer>`,<br>`<article>`, `<aside>`, `<nav>` | `<div>`, `<span>`                                       |
+
+Using semantic HTML tags makes your code more readable and meaningful. For example, a `<header>` tag tells us that a section is at the "head" or top of a page or a content block, while a `<footer>` typically holds contact details or copyright information near the bottom or "foot" of the page.
 
 ---
 
 <h1 class="slide-header">Semantic HTML</h1>
 
-Semantic HTML helps you introduce meaning _and_ organization to your webpages. Most webpages have some common elements; a navigation bar that takes you to different parts of a website, along with a main section of content.
+Semantic HTML helps introduce both **meaning** and **organization** to a webpage. Most webpages include common sections, such as a *navigation bar*, a *main content area*, and a *footer*.
 
-As a developer, it’s helpful to keep track of where all of the content you are adding to a webpage will go. This also helps browsers read and make sense of that content. When a browser sees a `<nav>` tag on a website, it knows, “Hey! This is the navigation. It will help people get around the site and tells me what content is here. Thanks for the heads up!”
+As a developer, structuring your content with semantic HTML makes it easier to understand and maintain. It helps browsers and search engines understand what different parts of a webpage mean.
 
-Here’s how you might use some common semantic HTML tags (<a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank" rel="noreferrer noopener">check out w3schools for a complete list</a>):
+When a browser sees a `<nav>` tag on a website, it knows, *"Hey! This is the navigation. It will help people get around the site and tells me what content is here."*
 
-<img src="./assets/website-sections.png" alt="Sections of a Webpage" style="width:50%;"/>
+Here’s an example of how some common semantic tags are used in a webpage layout:
+
+
+<img src="./assets/website-sections.png" alt="Sections of a Webpage" style="width:300px;"/>
+
+<br>
+
+<small><a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank" rel="noreferrer noopener">Visit w3schools for a complete list of semantic elements.</a></small>
 
 ---
 
 <h1 class="slide-header">Knowledge Check</h1>
 
-Let’s look at Kasserole’s website. Which semantic tag might we add around `<h1>` and `<h3>` to group them together?
+Let’s look at Café Aurora's website. Which semantic tag might we add around `<h1>` and `<h2>` to group them together?
 
 ```html
-<h1>Kasserole</h1>
-<h3>Critics dub Kasserole the Metallica of modern times.</h3>
-<p>Out of the oven and into your soul.</p>
+<h1>Café Aurora</h1>
+<h2>Bringing people together over artisanal coffee and fresh pastries.</h2>
+<p>Locally roasted coffee, specialty teas, and homemade treats.</p>
 <p>
-  <a href="https://www.youtube.com/watch?v=vm32-ted2rI" target="_blank">Rock out to a demo.</a>
+  <a href="https://www.example.com/menu" target="_blank">View our menu.</a>
 </p>
 <p>
-  <a href="https://pitchfork.com/" target="_blank">Check out our reviews on Pitchfork.</a>
+  <a href="https://www.example.com/reviews" target="_blank">See what our customers are saying.</a>
 </p>
-<h2>Song List.</h2>
+
+<h2>Our Specialties</h2>
 <ul>
-  <li>Ogre Blood Ballad</li>
-  <li>Love is Weird</li>
-  <li>Just Because</li>
-  <li>Darkness in the Dark</li>
+  <li>Handcrafted Espresso</li>
+  <li><strong>Signature</strong> Arabic Coffee</li>
+  <li><em>Organic</em> Matcha Latte</li>
+  <li>Freshly Baked Croissants</li>
+  <li>Traditional Date Pastries</li>
 </ul>
+
+<img src="https://tinyurl.com/html-coffee-img" alt="Three friends sharing coffee" width="324" height="242" />
 ```
 
-  <fieldset>
-    <legend>Please select one of the following</legend>
-    <input type="radio" name="action" id="main-answer" value="main"  /><label for="main-answer">main</label><br />
-    <input type="radio" name="action" id="nav-answer" value="nav" /><label for="nav-answer">nav</label><br />
-    <input type="radio" name="action" id="header-answer" value="header" correct="true"/><label for="header-answer">header</label><br />
-    <input type="radio" name="action" id="article-answer" value="article"  /><label for="article-answer">article</label><br />
-  </fieldset>
-  <button class="ant-btn ant-btn-primary multiple-choice-radio-submit">Submit Answer</button>
+<fieldset>
+  <legend>Please select one of the following</legend>
+  <input type="radio" name="action" id="main-answer" value="main"  /><label for="main-answer">main</label><br />
+  <input type="radio" name="action" id="nav-answer" value="nav" /><label for="nav-answer">nav</label><br />
+  <input type="radio" name="action" id="header-answer" value="header" correct="true"/><label for="header-answer">header</label><br />
+  <input type="radio" name="action" id="article-answer" value="article"  /><label for="article-answer">article</label><br />
+</fieldset>
+<button class="ant-btn ant-btn-primary multiple-choice-radio-submit">Submit Answer</button>
 
 ---
 
 <h1 class="slide-header">Non-Semantic HTML</h1>
 
-Sometimes, you just need to group things together, and the result won’t make up a specific part of a website. In this case, you’d use a handy non-semantic HTML tag:
+Sometimes, you just need to group elements together without assigning a specific meaning to them. In these cases, you can use non-semantic HTML tags:
 
-- A `<div>` groups several elements together.
-- A `<span>` groups just a few words.
+- `<div>`: A container used to group multiple elements together.
 
-Non-semantic tags help you organize your content in HTML, but they’re especially important when you start styling your content with CSS. What if you have a header, paragraph, and list that are all related to the same topic and you want to give them the same style? You could group them all in a `<div>` and then add CSS styling to the `<div>` that applies to all of the elements it contains.
+- `<span>`: An inline container used to style or manipulate a small portion of text.
+
+Non-semantic tags don’t describe the content they contain, but they are essential for organizing content, especially when applying styles with CSS.
 
 ---
 
 <h1 class="slide-header">Non-Semantic Tags</h1>
 
-## div
+## The `div` Tag
 
-`<div>` stands for division, as in the _division_ of content. Think of `<div>` tags as a way to group the information on your webpage into logical sections. After that, you can style all of the elements in that section similarly without affecting other nearby elements.
+`<div>` stands for division, as in the division of content. Think of `<div>` as a way to group related elements on your webpage into logical sections. This helps with organization and makes it easier to apply styles later.
 
-A `<div>` tag will wrap around HTML elements and group them together, like so:
+For example, let’s say we want to group related content together:
 
 ```html
 <div>
   <h2>The start of a very important section.</h2>
   <p>This section has content that’s all related in some way.</p>
-  <p>So we want to group it together and set it off from the rest of a page.</p>
+  <p>So we want to group it together and set it off from the rest of the page.</p>
   <p>That’s why we wrapped all of this in a div!</p>
 </div>
 ```
 
-## span
+Here, all the related content is wrapped inside a `<div>`, allowing us to treat it as a single section.
 
-You can also group content on a smaller level — within a sentence or paragraph — using the `<span>` tag. Maybe you want the first word in a sentence to be a different color, or a larger size. You can wrap simply that word in `<span>`!
+---
 
-`<span>`’s syntax is similar to that of the `<strong>` and `<em>` tags we learned about earlier in this lesson.
+<h1 class="slide-header">Non-Semantic Tags</h1>
+
+## The `span` Tag
+
+You can also group content on a smaller level—within a sentence or paragraph—using the `<span>` tag. Maybe you want to emphasize a few words or apply a different style to a specific part of a sentence. `<span>` allows you to do that!
+
+The syntax of `<span>` is similar to `<strong>` and `<em>` but doesn’t actually change how text looks. Instead, it is used for styling or scripting purposes.
+
+For example:
 
 ```html
 <p>I want to call out <span>these words</span> in this sentence, but none of the other ones.</p>
 ```
 
+This allows developers to style only the text inside the `<span>`, such as changing the color, font size, or adding special effects with CSS.
+
+While `<div>` and `<span>` don’t add meaning like semantic tags, they are essential tools for grouping and styling content effectively!
+
 ---
 
-<h1 class="slide-header">The div Challenge</h1>
+<h1 class="slide-header">The <code>div</code> Challenge</h1>
 
-Your challenge: In a new `<div>` container, add a header and list of band members to the webpage.
+Your challenge: In a new `<div>` container, add a header and list of café team members to the webpage.
 
 Follow these steps:
 
-1. Beneath the picture of the casserole, open up a `<div>`.
-2. In the `<div>`, add an `<h2>` with text that reads: `Band Members`
-3. After the `<h2>`, add an _unordered_ list element opening tag.
-4. Add the following four band members as list items and close the `<ul>`.
-   - Zelda Ziggler: Lead vocals
-   - Billy Chu: Lead guitar and backup vocals
-   - JP Parthasarathy: Bass guitar
-   - Plum Porter: Percussion
-5. Close the `<div>`.
+**1. Beneath the `<img>` tag, open a new `<div>`.**
+
+**2. In the `<div>`, add an `<h2>` with text that reads: `Meet Our Team`.**
+
+**3. After the `<h2>`, add an *unordered list* element opening tag.**
+
+**4. Add the following team members as list items and close the `<ul>`:**
+
+   - `Omar Khalid: Head Barista`
+   - `Aiden Lee: Pastry Chef`
+   - `Sofia Chen: Café Manager`
+   - `Mateo Alvarez: Customer Relations`
+
+**5. Close the `<div>`.**
 
 Happy organizing!
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="The Div Challenge" src="https://codepen.io/GAmarketing/embed/ZEZBXOz?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/GAmarketing/pen/ZEZBXOz">
+<iframe height="400" style="width: 100%;" scrolling="no" title="The Div Challenge" src="https://codepen.io/GAmarketing/embed/RNwVrWB?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/GAmarketing/pen/RNwVrWB">
   The Div Challenge</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
@@ -216,11 +262,14 @@ Happy organizing!
 
 <h1 class="slide-header">Conclusion</h1>
 
-In this lesson, you’ve upped your HTML game. Your new skills include:
+In this lesson, you’ve expanded your HTML skills. Your new abilities include:
 
-- Styling text (bold, italics) with `<em>` and `<strong>` tags.
-- Chunking out a webpage into sections with semantic tags like `<main>` and non-semantic tags like `<div>` and `<span>`.
+- Styling text with `<em>` and `<strong>` to add emphasis and importance.
 
-Zelda’s website — while no work of art — certainly has important information that tells a story about Kasserole.
+- Structuring content with semantic tags like `<header>`, `<main>`, and `<footer>` to give meaning to different parts of a webpage.
 
-</textarea>
+- Grouping elements with non-semantic tags like `<div>` and `<span>` to organize content and prepare it for future styling.
+
+Café Aurora’s website is now well-organized, readable, and structured for growth. Great work!
+
+<!-- </textarea> -->
