@@ -10,7 +10,7 @@ Although the core function of HTML is simply to structure the content of a webpa
 
 <h5 id="topics-header" class="color-grey-500">Topics</h5>
 
-Styling Text with HTML Tags
+Formatting Text with HTML Tags
 
 <hr>
 
@@ -31,21 +31,26 @@ Using Tags to Organize Content
 <p>By the end of this lesson, you'll be able to:</p>
 
 <ul>
-  <li>Style text using HTML tags.</li>
+  <li>Format text using HTML tags.</li>
   <li>Explain the difference between semantic and non-semantic HTML.</li>
-  <li>Group HTML elements to create page sections.</li>
+  <li>Group HTML elements with a <code><div></code></li>
 </ul>
 
 ---
 
 <h1 class="slide-header">Options for Styling Text</h1>
 
-While HTML is primarily for structuring content, it also includes some basic elements for styling text. You’ll explore more advanced styling with CSS in a future lesson, but for now, let’s look at a few built-in HTML tags that modify text appearance.
+While HTML is primarily for structuring content, it also includes some basic elements for formatting text. You’ll explore more advanced styling with CSS in a future lesson, but for now, let’s look at a few built-in HTML tags that modify text appearance.
+
+<br>
 
 | Text Style    | HTML Element Tags     |
 | ------------- | --------------------- |
 | **bold text** | `<strong>  </strong>` |
 | _italic text_ | `<em> </em>`          |
+
+
+<br>
 
 These tags wrap around the text you want to style:
 
@@ -67,7 +72,7 @@ Our _organic matcha_ is a customer favorite!
 
 ---
 
-<h1 class="slide-header">Styling Text</h1>
+<h1 class="slide-header">Formatting Text</h1>
 
 Let’s add some formatting to Café Aurora’s website!
 
@@ -107,11 +112,15 @@ The word "semantic" means that the tag's name is significant and provides meanin
 
 Here's how `semantic HTML` compares to `non-semantic HTML`:
 
+<br>
+
 | Semantic HTML Tags                                                   | Non-Semantic HTML Tags                                  |
 | -------------------------------------------------------------------- | ------------------------------------------------------- |
 | Tell you something about the content they contain.                   | Don’t tell you much about the content they contain.     |
 | Indicate how the content will be displayed on the webpage.           | Are used more generally to organize groups of elements. |
 | `<header>`, `<main>`, `<footer>`,<br>`<article>`, `<aside>`, `<nav>` | `<div>`, `<span>`                                       |
+
+<br>
 
 Using semantic HTML tags makes your code more readable and meaningful. For example, a `<header>` tag tells us that a section is at the "head" or top of a page or a content block, while a `<footer>` typically holds contact details or copyright information near the bottom or "foot" of the page.
 
@@ -129,7 +138,6 @@ Here’s an example of how some common semantic tags are used in a webpage layou
 
 <img src="./assets/website-sections.png" alt="Sections of a Webpage" style="width:300px;"/>
 
-<br>
 
 <small><a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank" rel="noreferrer noopener">Visit w3schools for a complete list of semantic elements.</a></small>
 
@@ -200,7 +208,7 @@ Non-semantic tags don’t describe the content they contain, but they are essent
 
 <h1 class="slide-header">Non-Semantic Tags</h1>
 
-## The `div` Tag
+**The `div` Tag**
 
 `<div>` stands for division, as in the division of content. Think of `<div>` as a way to group related elements on your webpage into logical sections. This helps with organization and makes it easier to apply styles later.
 
@@ -221,7 +229,7 @@ Here, all the related content is wrapped inside a `<div>`, allowing us to treat 
 
 <h1 class="slide-header">Non-Semantic Tags</h1>
 
-## The `span` Tag
+**The `span` Tag**
 
 You can also group content on a smaller level—within a sentence or paragraph—using the `<span>` tag. Maybe you want to emphasize a few words or apply a different style to a specific part of a sentence. `<span>` allows you to do that!
 
@@ -280,6 +288,6 @@ In this lesson, you’ve expanded your HTML skills. Your new abilities include:
 
 - Grouping elements with non-semantic tags like `<div>` and `<span>` to organize content and prepare it for future styling.
 
-Café Aurora’s website is now well-organized, readable, and structured for growth. Great work!
+Café Aurora’s website is now well-organized, readable, and ready for future growth. Great work!
 
 </textarea>
