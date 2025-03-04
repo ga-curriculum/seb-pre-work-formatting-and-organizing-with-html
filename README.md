@@ -33,7 +33,7 @@ Using Tags to Organize Content
 <ul>
   <li>Format text using HTML tags.</li>
   <li>Explain the difference between semantic and non-semantic HTML.</li>
-  <li>Group HTML elements with a <code><div></code></li>
+  <li>Group HTML elements with a <code>div</code></li>
 </ul>
 
 ---
