@@ -282,9 +282,7 @@ Happy organizing!
 In this lesson, you’ve expanded your HTML skills. Your new abilities include:
 
 - Formatting text with `<em>` and `<strong>` to add emphasis and importance.
-
 - Structuring content with semantic tags like `<header>`, `<main>`, and `<footer>` to give meaning to different parts of a webpage.
-
 - Grouping elements with non-semantic tags like `<div>` and `<span>` to organize content and prepare it for future styling.
 
 Café Aurora’s website is now well-organized, readable, and ready for future growth. Great work!
