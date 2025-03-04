@@ -44,20 +44,10 @@ While HTML is primarily for structuring content, it also includes some basic ele
 
 <br>
 
-<table>
-  <tr>
-    <th>Text Style</th>
-    <th>HTML Element Tags</th>
-  </tr>
-  <tr>
-    <td><strong>bold text</strong></td>
-    <td><code>&lt;strong&gt; &lt;/strong&gt;</code></td>
-  </tr>
-  <tr>
-    <td><em>italic text</em></td>
-    <td><code>&lt;em&gt; &lt;/em&gt;</code></td>
-  </tr>
-</table>
+| Text Style    | HTML Element Tags     |
+| ------------- | --------------------- |
+| **bold text** | `<strong>  </strong>` |
+| _italic text_ | `<em> </em>`          |
 
 <br>
 
