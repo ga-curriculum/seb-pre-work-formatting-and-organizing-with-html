@@ -85,6 +85,8 @@ Let’s add some formatting to Café Aurora’s website!
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
+<small><strong>TIP:</strong> After updating your code, click the <strong>"Run"</strong> or <strong>"Rerun"</strong> button in CodePen to make sure your changes take effect. Then, check <strong>View Test Results</strong> to see if your updates pass!</small>
+
 ---
 
 <h1 class="slide-header">Adventures in HTML Formatting</h1>
@@ -274,6 +276,8 @@ Happy organizing!
   The Div Challenge</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
+
+<small><strong>TIP:</strong> After updating your code, click the <strong>"Run"</strong> or <strong>"Rerun"</strong> button in CodePen to make sure your changes take effect. Then, check <strong>View Test Results</strong> to see if your updates pass!</small>
 
 ---
 
